@@ -52,15 +52,6 @@ git clone [repository-url]
 cd color_flipper
 ```
 
-### Option 3: Local Server (Optional)
-For development purposes:
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js (if you have http-server installed)
-npx http-server
-```
 
 ## 🎮 Usage Examples
 
@@ -76,22 +67,6 @@ setColor('purple'); // Changes background to purple
 randomColor(); // Creates colors like rgb(123, 45, 67)
 ```
 
-## 🎨 Customization
-
-### Adding New Colors
-To add more predefined colors:
-
-1. **HTML**: Add new button in `index.html`:
-```html
-<button id="purple" onclick="setColor('purple')">Purple</button>
-```
-
-2. **CSS**: Add corresponding style in `style.css`:
-```css
-#purple {
-    background-color: purple;
-}
-```
 
 ### Modifying Random Color Range
 To limit random colors to specific ranges:
@@ -133,7 +108,7 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source.
 
 ## 🙋‍♂️ Support
 
